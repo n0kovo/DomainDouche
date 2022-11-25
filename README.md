@@ -1,7 +1,7 @@
 # DomainDouche
 Abusing SecurityTrails domain suggestion API to find potentially related domains by keyword and brute force.
 
-### Example:
+### Demo:
 <img src='https://user-images.githubusercontent.com/16690056/204003301-33dcebad-0108-4a95-a01c-96e6c966055f.gif' width='50%'>
 
 ### Usage:
