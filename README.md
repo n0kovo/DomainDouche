@@ -1,5 +1,5 @@
 # [DomainDouche](https://github.com/n0kovo/DomainDouche)
-Abusing SecurityTrails domain suggestion API to find potentially related domains by keyword and brute force.
+Abusing SecurityTrails domain suggestion API to find potentially related domains by keyword and brute force. Use it while it still works 🙃
 
 ### Demo:
 <p align="center">
