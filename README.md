@@ -8,7 +8,7 @@ Abusing SecurityTrails domain suggestion API to find potentially related domains
 
 ### Usage:
 
-```shell
+```console
 usage: domaindouche.py [-h] [-n N] -c COOKIE -a USER_AGENT [-w NUM] [-o OUTFILE] keyword
 
 Abuses SecurityTrails API to find related domains by keyword.
