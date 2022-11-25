@@ -129,10 +129,10 @@ if __name__ == "__main__":
                 task_id = progress.add_task("[bold magenta]Brute-forcing...", total=len(algo_params))
                 progress.print("""[green]
  _                 _                
-| \ _ __  _  o __ | \ _     _ |_  _ 
+| \ _ __  _  o __ | \ _     _ |_  _     
 |_/(_)|||(_| | | ||_/(_)|_|(_ | |(/_
  _________________________________[/green]                                                                  
-                        by [bold magenta]n0kovo[/bold magenta]""")
+       by [bold magenta]@n0kovo@infosec.exchange[/bold magenta]""")
                 progress.print("\nStarting enumeration...\n", style="bold magenta")
                 with multiprocessing.Pool(processes=5, initializer=initializer) as pool:
 
@@ -158,6 +158,9 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         progress_console.print(
             "\n[bold magenta]Ctrl-C detected. Exiting...[/bold magenta]\n"
+        )
+        progress_console.print(
+            f"\n[green]Found {len(results)} domains starting with '{args.keyword}'[/green]\n"
         )
 
     # If script output is piped, print results to stdout
