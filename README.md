@@ -2,6 +2,8 @@
 Abusing SecurityTrails domain suggestion API to find potentially related domains by keyword and brute force.
 <br><br>Use it while it still works 🙃
 
+(Also, hmu on Mastodon: [@n0kovo@infosec.exchange](https://infosec.exchange/@n0kovo))
+
 ### Demo:
 <p align="center">
 <img src='https://user-images.githubusercontent.com/16690056/204003301-33dcebad-0108-4a95-a01c-96e6c966055f.gif' width='50%'> 
