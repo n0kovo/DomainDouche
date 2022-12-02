@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Domain enumeration script abusing the 'suggestions' feature
 when typing out domains on https://securitytrails.com/dns-trails.
 Very handy for quickly finding potentially related domains from a name."""
