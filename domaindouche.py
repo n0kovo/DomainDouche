@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Domain enumeration script abusing the 'suggestions' feature
 when typing out domains on https://securitytrails.com/dns-trails.
 Very handy for quickly finding potentially related domains from a name."""
@@ -86,7 +87,7 @@ q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
 def get_suggestions(brute_string):
     """Makes the HTTP request and returns a list of suggested domains"""
     url = f"https://securitytrails.com/app/api/autocomplete/domain/{args.keyword}{brute_string}"
-    req = requests.get(url, cookies=cookies, headers=headers)
+    req = requests.get(url, cookies=cookies, headers=headers, timeout=3)
     return json.loads(req.text)["suggestions"]
 
 
